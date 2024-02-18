@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="reporting.ReportSetup"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/ankit/source/repos/RestAssuredE2ETests/src/test/java/uspstests/VerifyStatusCodeTest.java(failed)" verbose="0">
+    <classes>
+      <class name="uspstests.VerifyStatusCodeTest">
+        <methods>
+          <include name="verifyStatusCode"/>
+        </methods>
+      </class> <!-- uspstests.VerifyStatusCodeTest -->
+    </classes>
+  </test> <!-- C:/Users/ankit/source/repos/RestAssuredE2ETests/src/test/java/uspstests/VerifyStatusCodeTest.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

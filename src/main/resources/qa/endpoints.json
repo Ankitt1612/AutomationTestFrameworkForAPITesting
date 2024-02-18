@@ -1,0 +1,4 @@
+{
+  "QA": "https://visible-shipping-ms-qa-tracking.azurewebsites.net/api/v4/Tracking?action=CallAPI",
+  "Prod": "Tracking?action=CallAPI"
+}
