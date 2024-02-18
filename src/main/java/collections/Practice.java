@@ -25,7 +25,7 @@ public class Practice {
         test1.add(13);
         test1.add(45);
 
-       List<String> lower =  studentName.stream().map(String::toLowerCase).collect(Collectors.toList());
+       List<String> lower =  studentName.stream().map(String::toLowerCase).toList();
       // List<String> chota = test1.stream().map(s-> s.).collect(Collectors.toList());
        // System.out.println(chota);
      //   System.out.println(lower);
